@@ -33,7 +33,7 @@ export default function Reset() {
   return (
     <div className="reset">
       <div className="reset_header">
-        <img src="../../../icons/facebook.svg" alt="" />
+        <img src="https://scontent.fdel27-3.fna.fbcdn.net/v/t39.30808-6/306283164_389564823352463_6091838270897074848_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Lrxzm-zngLoAX-IS6zD&_nc_ht=scontent.fdel27-3.fna&oh=00_AfCs5cUH7rPSd3HiVV-KAZjte2TDJQE7htaCHiuDZs9IcA&oe=6408FF84" alt="" />
         {user ? (
           <div className="right_reset">
             <Link to="/profile">
