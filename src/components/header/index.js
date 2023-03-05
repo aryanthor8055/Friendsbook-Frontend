@@ -53,7 +53,7 @@ export default function Header({ page, getAllPosts }) {
           <Search color={color} />
           <input
             type="text"
-            placeholder="Search Facebook"
+            placeholder="Search Friendsbook"
             className="hide_input"
           />
         </div>
@@ -93,9 +93,8 @@ export default function Header({ page, getAllPosts }) {
       <div className="header_right">
         <Link
           to="/profile"
-          className={`profile_link hover1 ${
-            page === "profile" ? "active_link" : ""
-          }`}
+          className={`profile_link hover1 ${page === "profile" ? "active_link" : ""
+            }`}
         >
           <img src={user?.picture} alt="" />
           <span>{user?.first_name}</span>
