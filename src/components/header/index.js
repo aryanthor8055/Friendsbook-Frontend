@@ -7,7 +7,6 @@ import {
   Gaming,
   Home,
   HomeActive,
-  Logo,
   Market,
   Menu,
   Messenger,
@@ -41,7 +40,8 @@ export default function Header({ page, getAllPosts }) {
       <div className="header_left">
         <Link to="/" className="header_logo">
           <div className="circle">
-            <Logo />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png" width={70} height={50} style={{ borderRadius: '50%' }} />
+
           </div>
         </Link>
         <div

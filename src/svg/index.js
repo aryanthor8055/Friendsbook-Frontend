@@ -1,4 +1,3 @@
-import Logo from "./logo";
 import HomeActive from "./homeActive";
 import Friends from "./friends.js";
 import Watch from "./watch";
@@ -23,7 +22,6 @@ import Home from "./home";
 import FriendsActive from "./friendsActive";
 
 export {
-  Logo,
   HomeActive,
   Friends,
   Watch,
